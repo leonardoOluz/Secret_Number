@@ -1,0 +1,50 @@
+:root {
+    --cor-fundo: #DB8812;
+    --cor-primaria: #DB6612;
+    --cor-secundaria: #DB4212;
+    --cor-branca: #fff;
+    --font-family: 'Inter', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    padding: 6rem;
+    background-color: var(--cor-fundo);
+    font-family: var(--font-family);
+    display: flex;
+    font-size: 2rem;
+    font-weight: 600;
+    flex-direction: column;
+    align-items: center;
+}
+
+body div {
+    padding: 2rem;
+    text-align: center;
+}
+
+body h1 {
+    font-size: 3rem;
+}
+
+body h3 {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+body .mensagem {
+    background-color: rgba(0, 0, 0, .2);
+    color: var(--cor-branca);
+    font-size: 24px;
+    font-weight: 400;
+    margin: 2rem;
+    border: 5px solid var(--cor-primaria);
+    border-radius: 16px;
+}
+
+body .mensagem .box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2.5px solid var(--cor-primaria);
+    border-radius: 16px;
+}
