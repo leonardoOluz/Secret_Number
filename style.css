@@ -19,6 +19,10 @@ body {
 body h1 {
     font-size: 3rem;
 }
+body h2{
+    font-size: 4rem;
+    font-weight: 500;
+}
 
 body h3 {
     padding: 1.5rem 0;

@@ -1,5 +1,5 @@
 const menorValor = 1;
-const maiorValor = 10;
+const maiorValor = 100;
 const secretNumber = gerarNumberAleatorio();
 
 document.querySelector('#menor-valor').innerHTML = menorValor;
