@@ -2,6 +2,7 @@
     --cor-fundo: #DB8812;
     --cor-primaria: #DB6612;
     --cor-secundaria: #DB4212;
+    --cor-terciaria: #f8c008c4;
     --cor-branca: #fff;
     --font-family: 'Inter', sans-serif;
 }
@@ -19,7 +20,8 @@ body {
 body h1 {
     font-size: 3rem;
 }
-body h2{
+
+body h2 {
     font-size: 4rem;
     font-weight: 500;
 }
@@ -27,6 +29,23 @@ body h2{
 body h3 {
     padding: 1.5rem 0;
     font-size: 1.5rem;
+}
+
+body .btn-jogar{
+    align-self: center;
+    padding: 1rem 2rem;
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 16px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: var(--cor-terciaria);
+    transition: 500ms transform;
+}
+
+body .btn-jogar:hover,
+body .btn-jogar:focus{
+    background-color: var(--cor-primaria);
+    transform: scale(1.1);
 }
 
 body .mensagem {
@@ -40,6 +59,7 @@ body .mensagem {
     display: flex;
     flex-direction: column;
 }
+
 body .mensagem div {
     padding: 2rem;
 }
