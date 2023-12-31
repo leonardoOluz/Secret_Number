@@ -3,9 +3,11 @@ function varificarChuteValido(chute) {
     if (chuteForInvalido(numero)) {
         if (chute.toUpperCase() === 'GAME OVER.' || chute.toUpperCase() === 'GAME OVER') {
             document.body.innerHTML = `
-            <h2>Fim do Jogo !</h2>
+            <h2 class="font-white">Fim do Jogo !</h2>
             <button id="jogar-novamente" class="btn-jogar">Jogar novamente ?</button>
             `;
+            document.body.style.backgroundColor = 'black';
+            
         } else {
             elementoChute.innerHTML += '<div>Valor inválido!</div>';
             return

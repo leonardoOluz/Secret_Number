@@ -25,6 +25,9 @@ body h2 {
     font-size: 4rem;
     font-weight: 500;
 }
+body .font-white{
+    color: #fff;
+}
 
 body h3 {
     padding: 1.5rem 0;
