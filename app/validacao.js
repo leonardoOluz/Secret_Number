@@ -1,7 +1,7 @@
 function varificarChuteValido(chute) {
     const numero = +chute;
     if (chuteForInvalido(numero)) {
-        if (chute.toUpperCase() === 'GAME OVER.') {
+        if (chute.toUpperCase() === 'GAME OVER.' || chute.toUpperCase() === 'GAME OVER') {
             document.body.innerHTML = `
             <h2>Fim do Jogo !</h2>
             <button id="jogar-novamente" class="btn-jogar">Jogar novamente ?</button>
